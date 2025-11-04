@@ -1,0 +1,7 @@
+cac_so = list(map(int, input("nhập các số nguyên cách nhau bằng dấu cách:").split()))
+tong = sum(cac_so)
+trung_binh = tong/len(cac_so)
+lon_nhat = max(cac_so)
+print("tổng:", tong)
+print("trung bình:", trung_binh)
+print("lớn nhất:", lon_nhat)
